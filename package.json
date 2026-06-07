@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Larimar4you/nodejs-hw#readme",
   "dependencies": {
+    "celebrate": "^15.0.3",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
