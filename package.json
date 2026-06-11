@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/Larimar4you/nodejs-hw#readme",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "celebrate": "^15.0.3",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",

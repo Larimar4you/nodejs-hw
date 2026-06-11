@@ -19,6 +19,8 @@ import {
 
 const notesRoutes = Router();
 
+notesRoutes.use(authenticate);
+
 notesRoutes.get('/notes', celebrate(getAllNotesSchema), getAllNotes);
 
 notesRoutes.get('/notes/:noteId', celebrate(noteIdSchema), getNoteById);
