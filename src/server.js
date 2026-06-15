@@ -20,7 +20,7 @@ app.use(cors());
 app.use(express.json());
 app.use(cookieParser());
 
-app.use('/auth', authRoutes);
+app.use(authRoutes);
 app.use(notesRoutes);
 
 app.use(notFoundHandler);
